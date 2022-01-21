@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+      #scriptPart{
+         width: 450px;
+         height: 760px;
+       margin: auto;
+    
+       overflow-y: scroll;
+       margin-bottom: 20px;
+
+        
+     }  
+      
+       #scriptPart > img {
+           width: 450px;
+           height: 200px;
+          
+       }
+       #scriptPart > h3,h2,p,h4,btn,btn1 {
+           padding-left: 15px; ;
+       }
+      
+        .headBody{
+          width: 100%;
+          height: 22%;
+        ;
+        }
+      #navBar{
+          margin: 10px;
+          
+      }
+      a{
+          margin-left: 15px;
+          text-decoration: none;
+             
+          color: black;
+      }
+      #find-consultant{
+          font-size: 1.2rem;
+          color: #272829 ;
+       
+      }
+      #webName{
+          margin-left: 300px;
+          
+           margin-right: 270px;
+       }
+       #flag img{
+            width: 30px;
+            height: 25px;
+           
+            
+       }
+      
+      #background{
+          
+          height: 500px;
+          width: 100%;
+        background-image: url('https://www.rodanandfields.com/en-us/medias/Homepage-Hero-Banner-FullWidth-Evergreen-Offers-Desktop-Tablet-1-.jpg?context=bWFzdGVyfHJvb3R8MjczMzIzfGltYWdlL2pwZWd8aDc4L2g4NS8xNDI5NjMzNjk5MDIzOC5qcGd8OTRjNGY2ODI3M2RkNzdjYzk0MWMzMDg5ODU0YmM5NWVmMzUyMWNlNGRkMTlkZjc5ZWUyZjMyMzdhM2YxNGFlYw');
+
+      }
+      #headDescription{
+              padding-top: 100px;
+              padding-left: 35px;
+              width: 380px;
+              height: 70px;
+              font-family: RFFontRoman,Arial,Sans-Serif;
+      }
+      #description{
+        padding-top: 20px;
+              padding-left: 35px;
+              width: 380px;
+              height: 50px;
+              font-family: RFFontRoman,Arial,Sans-Serif;
+      }
+
+
+      #boxbtn{
+         
+         margin-left: 50px;
+         width: 270px;
+         height: 70px;
+         border: 2px solid black;
+         border-radius: 10px;
+        text-align: center;
+        padding-top: 10px;
+        font-weight: bold;
+         font-size: 20px;
+
+      }
+      #linkTag{
+        margin-left: 40%;
+     margin-top: 20px;
+        color: black;
+      }
+     #footer{
+         display: flex;
+     }
+     #ul1{
+         list-style: none;
+         font-family: Serif;
+         font-size: 14px;
+     }
+     #ul2{
+         list-style: none;
+         font-family: Serif;
+         font-size: 14px;
+     }
+     .footer1{
+         margin-left: 30px;
+     }
+     .footer1 >h3{
+         padding-left: 40px;
+     }
+     .footer2{
+         margin-left: 250px;
+     }
+     #social>a>img{
+         height: 28px;
+         width: 28px;
+     }
+    
+       #cart{
+           background-color: teal;
+           color: white;
+           width: 100px;
+           border:0;
+           padding: 20px;
+           margin-left: 20px;
+          
+       }
+
+       #allProduct{
+          
+           background-color: blanchedalmond;
+           display: grid;
+           grid-template-columns: 270px 270px 270px 270px ;
+           grid-template-rows: 300px;
+           grid-gap:15px;
+       }
+       #allProduct > div >img{
+           width: 270px;
+           height: 250px;
+       }
+       #allProduct > div p{
+           font-size: 14px;
+           padding-left: 48px;
+       }
+    #Producthead{
+        margin-left: 280px;
+        
+    }
+    #Producthead{
+        color: rgb(73, 43, 3);
+    }
+
+   #shop-all-product{
+       height: 40px;
+       width: 200px;
+       margin: auto;
+       background-color: burlywood;
+       border: 2px solid black;
+       border-radius: 10px;
+       margin-top: 15px;
+
+   }
+   #shop-all-product > a{
+       text-decoration: none;
+       padding: 25px;
+       padding-top: 16px;
+   }
+   #product-declaration{
+    background-color: blanchedalmond;
+           display: grid;
+           grid-template-columns: 390px 390px 390px;
+           grid-template-rows: 370px;
+           grid-gap:25px;
+           margin-left: 30px;
+        
+   }
+   #product-declaration >div{
+       background-color: white;
+   }
+   #product-declaration > div >img{
+           width: 350px;
+           height: 250px;
+           margin-left: 18px;
+       }
+       #product-declaration  > div p{
+           font-size: 14px;
+          
+           text-align: center;
+       }
+       #product-declaration  > div h3{
+           font-size: 22px;
+         
+           text-align: center;
+       }
+       #some-detail{
+           display: grid;
+           background-color: blanchedalmond;
+           display: grid;
+           grid-template-columns: 390px 390px 390px;
+           grid-template-rows: 150px;
+           grid-gap:25px;
+           margin-left: 30px;
+           margin-top: 20px;
+       }
+       #button1{
+           margin-top: 40px;
+           height: 50px;
+           width: 200px;
+       }
+       #navigation{
+           width: 100%;
+           height: 70px;
+       }
+       #navigation > nav{
+           margin-top: 20px;
+           margin-left: 150px;
+
+       }
+       #navigation > nav >a{
+           padding-left: 30px;
+       }
+
+       
+    </style>
+</head>
+<body>
+    <div class="headBody">
+        <nav id="navBar">
+            <a id="find-consultant" href="">FIND A CONSULTANT
+          </a>
+            <a id="webName" href=""><img src="https://www.rodanandfields.com/en-us/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA" alt=""></a>
+            <a id="signIn" href="signIn.html">SignIn</a>
+            <a id="signUp" href="signUp.html">SignUp</a>
+            <a  href="cart.html">cart</a>
+            <a id="flag" href=""><img src="flag.png" alt=""></a>
+            <a href="">English</a>
+          </nav>
+    </div>
+    <hr>
+    <div id="navigation">
+        <nav>
+            <a href="shop-all-product.html">Shop</a>
+            <a href="Bestseller.html">BestSeller</a>
+            <a href="">Feachered</a>
+            <a href="">OurStory</a>
+            <a href="">
+               PERKS PROGRAM</a>
+            <a href="">BECOME A CONSULTANT</a>
+            <a href="">
+               BLOG</a>
+        </nav>
+      </div>
+   
+   
+   <a href="shop.html">
+    <div id="background">
+        <h1 id="headDescription">
+            Ultimate Revitalizing Regimen Add-On
+        </h1>
+        <p id="description">
+            Tackle all key signs of aging + boost Regimen results when you add Total RF Serum to your Regimen.
+        </p>
+          
+        <a  href="shop.html"><div id="boxbtn">
+        Shop Offers
+        </div></a>
+       
+    </div>
+   </a>
+
+ 
+   <a id="linkTag" href="Bestseller.html">Shop Best Sellers</a> 
+
+
+    <div id="scriptPart">
+        
+     
+       </div>
+  <hr>
+          <div id="Producthead">
+              <h1>Derm Inspired Skincare for Every Concern</h1>
+
+          </div>
+          <div id="allProduct">
+              <div>
+                  <img src="https://www.rodanandfields.com/en-us/medias/RVWA125-RVTG125-RVSS050-RVTTG50-REVERSE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3w0MTY5NHxpbWFnZS9wbmd8aW1hZ2VzL2gyNy9oZWIvMTM3NTgzODQzNDEwMjIucG5nfGI3NmIzMjI0NTc2Y2RiZjZlNTdhYjg0ZDM4ZjM0MmM2M2U5Yjg5Y2RiNTM1NTM1NGFlOWNiY2E5ZTVkYTM5NWY" alt="">
+                  <p>REVERSE Regimen</p>
+              </div>
+              <div>
+                  <img src="https://www.rodanandfields.com/en-us/medias/TRFS-Regimen-Explainer-GLOBAL-570x570.png?context=bWFzdGVyfGltYWdlc3wyODM2M3xpbWFnZS9wbmd8aW1hZ2VzL2g5Yy9oNzcvMTM3NTgzODUzODk1OTgucG5nfGYyZGUwNzdmOWM3N2Q2M2FlMjM4Zjc4MjQxNWZkNmIzOTc0NjIyZWM3MDgyZTY3YzA5YjMyZjNhZWY3MGE3YzY" alt="">
+                  <p>Total RF Serum</p>
+                </div>
+              <div>
+                  <img src="https://www.rodanandfields.com/en-us/medias/MFEC-Regimen-Explainer-GLOBAL-570x570.png?context=bWFzdGVyfGltYWdlc3wyMzc3NHxpbWFnZS9wbmd8aW1hZ2VzL2gzNS9oZmMvMTM3NTgzODU0NTUxMzQucG5nfDNmYWYyNzdiZGY5OWIyY2UzMDYyZDliYmM2YmUzMTRmOGY3Yzg0YmY1ZjY2YjgyYWU1OGNhZDZiN2IzMjViZGI" alt="">
+                  <p>
+                    REDEFINE Multi-Function Eye Cream</p>
+                </div>
+              <div>
+                  <img src="https://www.rodanandfields.com/en-us/medias/AAWA125-AATN125-AATT030-AAPM030-REDEFINE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3wzMTE2NXxpbWFnZS9wbmd8aW1hZ2VzL2hkNy9oMWMvMTM3NTgzODQwNzg4NzgucG5nfDE5NTM4Yzc1OTA0MWNiY2M5NzYwMDZhMTQ0NGVmZDEzZmRhYzVlZWE4YWRhODk3NWQ0ZGU1NDlhNzVjZTUyOTU" alt="">
+                  <p>
+                    UNBLEMISH Regimen</p>
+                </div>
+              
+              
+          </div>
+          <div id="shop-all-product">
+              <a href="shop-all-product.html">Shop All Product</a>
+          </div>
+          <hr>
+          <div id="product-declaration">
+              <div><img src="https://www.rodanandfields.com/en-us/medias/Derm-Inspired-Card1.png?context=bWFzdGVyfHJvb3R8OTY4NDh8aW1hZ2UvcG5nfGg2NC9oNDUvMTQzNjc5Njg3NTU3NDIucG5nfGQ1MTk2NGM3YzFhZjVhNmI3OTAwNDMzYjQyM2ZhY2E3OTgzMTc0YTdiYWI4Mzc3YTNlY2QyYjgzNDVmZDlkNmI" alt="">
+                <h3>Derm Inspired</h3>
+                <p>Dr. Katie Rodan + Dr. Kathy fields founded R+F to give everyone access to life-changing skincare.</p>
+
+              </div>
+              <div><img src="https://www.rodanandfields.com/en-us/medias/Clinically-Tested-Card2.png?context=bWFzdGVyfHJvb3R8ODkyMTR8aW1hZ2UvcG5nfGhjNC9oOTAvMTQzNjc5Njg4MjEyNzgucG5nfGMwYmUyOTdlYzA0NjRjNWZjMTMzNTdmYmFlMTU4ZmY5ZWY4YTJkNDEyZWQ1YzM0Mjk2ZTg5MGQzMWY0MGNhZjQ" alt="">
+                <h3>Clinically Tested</h3>
+                <p>Our innovative formulas are tested in our lab and designed to work together to deliver real results.</p></div>
+              
+              <div>
+              <img src="https://www.rodanandfields.com/en-us/medias/Results-Guaranteed-Card3.png?context=bWFzdGVyfHJvb3R8OTM4NzB8aW1hZ2UvcG5nfGgxYy9oZDcvMTQzNjc5Njg4ODY4MTQucG5nfGM4MTI2NzNmNmFlMWE0YTU1M2YzNmY3NDYzMTU4YTk5YWI5YWU5MWJhYzIwY2MxMmU1ZDQzNWIzYTcwM2NkM2Q" alt="">
+              <h3>Results Guaranteed</h3>
+                <p>See and feel the best skin of your life within 60 days or your money back. Even on empty bottles.</p>
+              </div>
+          </div>
+          <div id="some-detail">
+              <div> <h1>Personalized Skincare Services</h1>
+              </div>
+              <div>
+                  <ul>
+                      <li>Customized recommendations</li>
+                      <li>Learn more about our products</li>
+                      <li>Enjoy ongoing skincare advice</li>
+                  </ul>
+              </div>
+              <div><button id="button1">Find A CONSULTANT</button></div>
+
+          </div>
+   <footer>
+     <div id="footer">
+         <div class="footer1">
+             <h3>ABOUT R+F</h3>
+           <ul id="ul1">
+             <a href=""><li>PRESS ROOM</li></a>
+             <a href=""><li>COMPANY INFO</li></a>
+             <a href=""><li>EXECUTIVE TEAM</li></a>
+             <a href=""><li>CAREERS</li></a>
+             <a href=""><li>R+F RECYCLING PROGRAM</li></a>
+             <a href=""><li>BLOG</li></a>
+           </ul>
+         </div>
+
+         <div  class="footer1">
+            <h3>Help</h3>
+            <ul id="ul2">
+                <a href=""><li>PRODUCT & HELP CENTER</li></a>
+                <a href=""><li>SHIPPING</li></a>
+                <a href=""><li>SATISFACTION GUARANTEE</li></a>
+                <a href=""><li>PROMOTIONAL TERMS & CONDITIONS</li></a>
+                <a href=""><li>R+F FACTS</li></a>
+                <a href=""><li>KLARNA</li></a>
+                <a href=""><li>SITE MAP</li></a>
+
+            </ul>
+         </div>
+         <div class="footer2">
+             <h1>Let’s Get Social</h1>
+             <div id="social">
+                 <a href="https://www.facebook.com/rodanandfields"><img src="fb.png" alt=""></a>
+                 <a href="https://twitter.com/RodanFieldsHQ"><img src="twitter.png" alt=""></a>
+                 <a href="https://www.instagram.com/rodanandfields/"><img src="insta.png" alt=""></a>
+                 <a href="https://www.youtube.com/user/RodanFields"><img src="YouTube_full-logo.png" alt="" ></a>
+                 <a href="https://www.pinterest.com/RodanandFields/"><img src="Pinterest-logo.png" alt=""></a>
+             </div>
+         </div>
+     </div>
+   </footer>
+</body>
+</html>
+<script>
+      var product = JSON.parse(localStorage.getItem("shoppingBag"));
+    console.log("product:",product);
+
+    displayItems(product);
+
+    var cart = JSON.parse(localStorage.getItem("cartItems")) || [];
+    
+    function displayItems(product){
+        product.map(function(item){
+            var h3 = document.createElement("h3");
+        h3.textContent =item.name;
+
+        var h2 = document.createElement("h2");
+        h2.textContent = item.price;
+
+        var p =document.createElement("p");
+         p.innerText=item.pr;
+
+        var h4 = document.createElement("h4");
+        h4.innerHTML= item.type;
+
+        var img = document.createElement("img");
+        img.setAttribute("src",item.image_url);
+
+        var btn = document.createElement("button");
+        btn.textContent = "Add to cart";
+        btn.addEventListener("click",function(){
+              addToCart(item);
+        });
+
+        var btn1 = document.createElement("button");
+        btn1.textContent = "Add to Fav";
+
+        var hr = document.createElement("hr");
+          
+            document.querySelector("#scriptPart" ).append(img,h3,h2,p,h4,btn,btn1,hr); 
+           
+        
+        });
+
+        function addToCart(item){
+            console.log(item);
+
+            cart.push(item);
+            
+            localStorage.setItem("cartItems",JSON.stringify(cart));
+        }
+    }
+   
+      document.getElementById("cart").addEventListener("click",function(){
+          window.location.href = "cart.html";
+      })
+    
+
+   /* var h1 = document.createElement("h1");
+        h1.textContent = name;
+
+        var h2 = document.createElement("h2");
+        h2.textContent = price;
+
+        var h3 = document.createElement("h3");
+        h3.textContent = type;
+
+        var img = document.createElement("img");
+        img.setAttribute("src",image_url);
+
+        var btn = document.createElement("button");
+        btn.textContent = "Add to cart";
+        btn.addEventListener("click",function(){
+              addToCart()
+        });
+
+        var hr = document.createElement("hr");
+
+        document.querySelector("body").append(img,h1,h2,h3,btn,hr);*/
+
+        /* product.forEach(function(item){
+     displayItems(item.name,item.price,item.image_url,item.type);
+    });
+
+    function displayItems(name,price,image_url,type){
+        console.log(name,price,image_url,type);*/
+</script>
